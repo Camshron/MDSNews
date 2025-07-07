@@ -1,35 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-         <loc>https://camshron.github.io/MDSNews/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Applications/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Branding%20%26%20Guidelines/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Help/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Index%20%282%29/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Procedure/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Process/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
-    <url>
-         <loc>https://camshron.github.io/MDSNews/Team/</loc>
-         <lastmod>2025-07-07</lastmod>
-    </url>
 </urlset>
