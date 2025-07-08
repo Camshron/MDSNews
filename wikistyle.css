@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Benton+Sans&display=swap');
+
+body {
+    font-family: 'Benton Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    color:#000000;
+    margin: 0;
+    padding: 0 20px;
+    border: 2px solid;
+}
+
+h1 {
+    background-color: #990000;
+    color:#FFFFFF;
+}
+
+
