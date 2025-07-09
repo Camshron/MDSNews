@@ -10,8 +10,6 @@ body {
     border: 2px solid;
 }
 
-h1 {
-    color:#990000 !important;
+h1.md-header {
+  color: #990000 !important;
 }
-
-
