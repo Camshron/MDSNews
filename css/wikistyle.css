@@ -10,6 +10,14 @@ body {
     border: 2px solid;
 }
 
-h1.md-header {
-  color: #990000 !important;
+/* iu-colors.css */
+.md-header,
+.md-tabs {
+  background-color: #990000;
+}
+
+.md-nav__title,
+.md-tabs__link,
+.md-header__title {
+  color: white;
 }
