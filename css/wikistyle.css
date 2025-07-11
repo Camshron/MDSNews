@@ -26,7 +26,7 @@ body {
 .md-typeset blockquote {
   background-color: #f0f0f0; /* Light gray background */
   border-left: 4px solid #990000; /* IU Crimson left bar */
-  color: #222222; /* Darker text */
+  color: #990000 !important; /* Darker text */
   padding: 1em;
   margin: 1em 0;
 }
