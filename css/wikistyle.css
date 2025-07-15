@@ -48,6 +48,11 @@ h3 { font-size: 1.0em;
     color: black; 
 }
 
+p {
+  margin-bottom: 1em;
+}
+
+
 /* list styling */
 ul, ol {
   margin-left: 1.2em;
