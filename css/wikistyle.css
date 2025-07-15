@@ -30,7 +30,7 @@ body {
   padding: 1em;
   margin: 1em 0;
 }
-
+/*Header Style*/
 h1{
     font-size: 2em;
     margin-top: 0;
@@ -46,4 +46,39 @@ h2 {
 
 h3 { font-size: 1.0em;
     color: black; 
+}
+
+/* list styling */
+ul, ol {
+  margin-left: 1.2em;
+  padding-left: 0.5em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/*Code and Pre blocks*/
+
+code {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 1em;
+  overflow-x: auto;
+  border-left: 4px solid #990000;
+  font-family: monospace;
+}
+
+/* Header and footer */
+hr {
+  border: 0;
+  border-top: 2px solid #990000;
+  margin: 2em 0;
 }
