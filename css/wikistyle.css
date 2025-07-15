@@ -88,6 +88,10 @@ hr {
   margin: 2em 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Back to Top */
 .back-to-top {
   display: inline-block;
@@ -110,6 +114,3 @@ hr {
   opacity: 1;
 }
 
-html {
-  scroll-behavior: smooth;
-}
