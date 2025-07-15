@@ -82,3 +82,29 @@ hr {
   border-top: 2px solid #990000;
   margin: 2em 0;
 }
+
+/* Back to Top */
+.back-to-top {
+  display: inline-block;
+  background-color: #990000;
+  color: white;
+  padding: 0.6em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 0.9em;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
