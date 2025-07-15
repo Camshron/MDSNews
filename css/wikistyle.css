@@ -41,7 +41,7 @@ h2 {
     font-size: 1.7em;
     margin-top: 0;
     color: #990000; /* IU Crimson color */
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 h3 { font-size: 1.0em;
