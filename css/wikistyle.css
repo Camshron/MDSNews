@@ -30,3 +30,20 @@ body {
   padding: 1em;
   margin: 1em 0;
 }
+
+h1{
+    font-size: 2em;
+    margin-top: 0;
+    color: #990000; /* IU Crimson color */
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #990000; /* IU Crimson color */
+    font-weight: bold;
+}
+
+h3 { font-size: 1.0em;
+    color: #990000; /* IU Crimson color */
+}
