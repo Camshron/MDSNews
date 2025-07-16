@@ -92,7 +92,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Back to Top */
 .back-to-top {
   display: inline-block;
   background-color: #990000;
@@ -103,14 +102,19 @@ html {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  font-size: 0.9em;
+  font-size: 1em;
+  font-weight: bold;              /* <-- Make the text bolder */
+  letter-spacing: 0.5px;          /* Optional: improve readability */
+  text-transform: uppercase;      /* Optional: ALL CAPS for emphasis */
   z-index: 999;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  opacity: 0.8;
+  opacity: 0.85;
   transition: opacity 0.3s ease;
 }
 
 .back-to-top:hover {
   opacity: 1;
+  background-color: #660000;      /* Optional: darken on hover */
 }
+
 
