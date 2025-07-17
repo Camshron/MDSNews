@@ -117,4 +117,14 @@ html {
   background-color: #660000;      /* Optional: darken on hover */
 }
 
+:root {
+  /* Override primary and accent colors */
+  --md-primary-fg-color: #990000;    /* IU Crimson for header, tabs, etc. */
+  --md-primary-bg-color: white;      /* Optional: header background */
+  --md-accent-fg-color: #003366;     /* Accent color for highlights, links, etc. */
+
+  /* Optional enhancements */
+  --md-typeset-a-color: #990000;     /* Link color in content */
+}
+
 
