@@ -13,7 +13,7 @@ body {
 /* iu-colors.css */
 .md-header,
 .md-tabs {
-  background-color: #990000 !important;
+  background-color: #b31a1a !important;
 }
 
 .md-nav__title,
@@ -25,8 +25,8 @@ body {
 /* Darker blockquote styling */
 .md-typeset blockquote {
   background-color: #f0f0f0; /* Light gray background */
-  border-left: 4px solid #990000; /* IU Crimson left bar */
-  color: #990000 !important; /* Darker text */
+  border-left: 4px solid #b31a1a; /* IU Crimson left bar */
+  color: #b31a1a !important; /* Darker text */
   padding: 1em;
   margin: 1em 0;
 }
@@ -34,13 +34,13 @@ body {
 h1{
     font-size: 2em;
     margin-top: 0;
-    color: #990000; /* IU Crimson color */
+    color: #b31a1a; /* IU Crimson color */
     font-weight: bold;
 }
 h2 {
     font-size: 1.7em;
     margin-top: 0;
-    color: #990000; /* IU Crimson color */
+    color: #b31a1a; /* IU Crimson color */
     font-weight: bold !important;
 }
 
@@ -77,14 +77,14 @@ pre {
   background-color: #f4f4f4;
   padding: 1em;
   overflow-x: auto;
-  border-left: 4px solid #990000;
+  border-left: 4px solid #b31a1a;
   font-family: monospace;
 }
 
 /* Header and footer */
 hr {
   border: 0;
-  border-top: 2px solid #990000;
+  border-top: 2px solid #b31a1a;
   margin: 2em 0;
 }
 
@@ -105,7 +105,7 @@ a:focus {
 
 .back-to-top {
   display: inline-block;
-  background-color: #990000;
+  background-color: #b31a1a;
   color: white !important;
   padding: 0.6em 1em;
   border-radius: 5px;
@@ -130,12 +130,12 @@ a:focus {
 
 :root {
   /* Override primary and accent colors */
-  --md-primary-fg-color: #990000;    /* IU Crimson for header, tabs, etc. */
+  --md-primary-fg-color: #b31a1a;    /* IU Crimson for header, tabs, etc. */
   --md-primary-bg-color: white;      /* Optional: header background */
   --md-accent-fg-color: #003366;     /* Accent color for highlights, links, etc. */
 
   /* Optional enhancements */
-  --md-typeset-a-color: #990000;     /* Link color in content */
+  --md-typeset-a-color: #b31a1a;     /* Link color in content */
 }
 
 
