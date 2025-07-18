@@ -14,6 +14,8 @@ body {
 .md-header,
 .md-tabs {
   background-color: #b31a1a !important;
+  height: 48px;
+  padding: 0 1rem;
 }
 
 .md-nav__title,
