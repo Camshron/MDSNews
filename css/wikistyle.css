@@ -21,14 +21,14 @@ body {
 .md-nav__title,
 .md-tabs__link,
 .md-header__title {
-  color: #ECEFF1 !important;
+  color: #000000 !important;
 }
 
 /* Darker blockquote styling */
 .md-typeset blockquote {
   background-color: #f0f0f0; /* Light gray background */
   border-left: 4px solid #ECEFF1; /* IU Crimson left bar */
-  color: #ECEFF1 !important; /* Darker text */
+  color: #000000 !important; /* Darker text */
   padding: 1em;
   margin: 1em 0;
 }
@@ -36,13 +36,13 @@ body {
 h1{
     font-size: 2em;
     margin-top: 0;
-    color: #ECEFF1; /* IU Crimson color */
+    color: #000000; /* IU Crimson color */
     font-weight: bold;
 }
 h2 {
     font-size: 1.7em;
     margin-top: 0;
-    color: #ECEFF1; /* IU Crimson color */
+    color: #000000; /* IU Crimson color */
     font-weight: bold !important;
 }
 
