@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Benton+Sans&display=swap');
-
 body {
     font-family: 'Benton Sans', sans-serif;
     line-height: 1.6;
-    background-color: #FFFFFF;
-    color:#000000;
+    background-color: #FAFAFA;
+    color: #1a1a1a;
     margin: 0;
     padding: 0 20px;
-    border: 2px solid;
+    border: none;
 }
 
-/* iu-colors.css */
 .md-header,
 .md-tabs {
-  background-color: #ECEFF1 !important;
+  background-color: #ECEFF1;
   height: 48px;
   padding: 0 1rem;
 }
@@ -21,123 +18,37 @@ body {
 .md-nav__title,
 .md-tabs__link,
 .md-header__title {
-  color: #000000 !important;
+  color: #1a1a1a;
 }
 
-/* Darker blockquote styling */
-.md-typeset blockquote {
-  background-color: #f0f0f0; /* Light gray background */
-  border-left: 4px solid #ECEFF1; /* IU Crimson left bar */
-  color: #000000 !important; /* Darker text */
-  padding: 1em;
-  margin: 1em 0;
-}
-/*Header Style*/
-h1{
-    font-size: 2em;
-    margin-top: 0;
-    color: #000000; /* IU Crimson color */
+h1, h2 {
     font-weight: bold;
-}
-h2 {
-    font-size: 1.7em;
-    margin-top: 0;
-    color: #000000; /* IU Crimson color */
-    font-weight: bold !important;
-}
-
-h3 { font-size: 1.0em;
-    color: black; 
-}
-
-p {
-  margin-bottom: 1em;
-}
-
-
-/* list styling */
-ul, ol {
-  margin-left: 1.2em;
-  padding-left: 0.5em;
-}
-
-li {
-  margin-bottom: 0.4em;
-}
-
-/*Code and Pre blocks*/
-
-code {
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-family: monospace;
-}
-
-pre {
-  background-color: #f4f4f4;
-  padding: 1em;
-  overflow-x: auto;
-  border-left: 4px solid #7b0000;
-  font-family: monospace;
-}
-
-/* Header and footer */
-hr {
-  border: 0;
-  border-top: 2px solid #7b0000;
-  margin: 2em 0;
-}
-
-html {
-  scroll-behavior: smooth;
+    color: #1a1a1a;
 }
 
 a {
-  color: #4682B4 !important;
+  color: #005A9C;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-  color: #6495ED !important; /* Slightly darker blue on hover/focus */
+  color: #003f73;
   text-decoration: underline;
 }
 
+/* Accessible button color */
 .back-to-top {
-  display: inline-block;
-  background-color: #7b0000;
-  color: white !important;
-  padding: 0.6em 1em;
-  border-radius: 5px;
-  text-decoration: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  font-size: 1em;
-  font-weight: bold;              /* <-- Make the text bolder */
-  letter-spacing: 0.5px;          /* Optional: improve readability */
-  text-transform: uppercase;      /* Optional: ALL CAPS for emphasis */
-  z-index: 999;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
+  background-color: #800000;
+  color: #ffffff;
 }
-
 .back-to-top:hover {
-  opacity: 1;
-  background-color: #660000;      /* Optional: darken on hover */
+  background-color: #660000;
 }
 
 :root {
-  /* Override primary and accent colors */
-  --md-primary-fg-color: #7b0000;    /* IU Crimson for header, tabs, etc. */
-  --md-primary-bg-color: white;      /* Optional: header background */
-  --md-accent-fg-color: #003366;     /* Accent color for highlights, links, etc. */
-
-  /* Optional enhancements */
-  --md-typeset-a-color: #7b0000;     /* Link color in content */
+  --md-primary-fg-color: #800000;
+  --md-primary-bg-color: white;
+  --md-accent-fg-color: #005A9C;
+  --md-typeset-a-color: #005A9C;
 }
-
-
