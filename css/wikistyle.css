@@ -181,7 +181,6 @@ hr {
    ===================== */
 .back-to-top {
   display: inline-block;
-  background-color: var(--iu-crimson);
   color: white !important;
   padding: 0.6em 1em;
   border-radius: 5px;
