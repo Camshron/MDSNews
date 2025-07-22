@@ -7,37 +7,52 @@ body {
   color: #000000;
   margin: 0;
   padding: 0 20px;
-  border: 2px solid;
 }
 
-/* Header and Tabs */
+/* HEADER STYLING */
 .md-header,
 .md-tabs {
-  background-color: #990000 !important;
+  background-color: #7b0000 !important;  /* IU Crimson */
   height: 48px;
   padding: 0 1rem;
 }
 
-/* Header and nav link colors */
-.md-header__title,
+/* Make all links in the header WHITE */
+.md-header a,
+.md-tabs a,
 .md-nav__title,
 .md-tabs__link,
-.md-header__link,
-.md-nav__link {
-  color: White !important;  
+.md-header__title {
+  color: #ffffff !important;
 }
 
-.md-tabs__link:hover,
-.md-header__link:hover,
-.md-nav__link:hover {
-  color: #003366 !important; /* Darker blue on hover */
+.md-tabs__link--active,
+.md-tabs__link--active:focus,
+.md-tabs__link--active:hover,
+.md-nav__link--active {
+  color: #ffffff !important;
+  font-weight: bold;
 }
 
+/* OPTIONAL: active tab background for visibility */
 .md-tabs__link--active {
-  color: #000000 !important;  /* Active tab color for contrast */
+  background-color: #990000 !important;  /* slightly darker crimson */
 }
 
-/* Blockquotes */
+/* NORMAL CONTENT LINKS (outside header) */
+.md-content a,
+.md-content .md-typeset a {
+  color: #0000EE !important;  /* Traditional blue */
+  text-decoration: underline;
+}
+
+.md-content a:hover,
+.md-content a:focus {
+  color: #0033cc !important;  /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Blockquote Styling */
 .md-typeset blockquote {
   background-color: #f0f0f0;
   border-left: 4px solid #ECEFF1;
@@ -53,34 +68,30 @@ h1 {
   color: #000000;
   font-weight: bold;
 }
-
 h2 {
   font-size: 1.7em;
   margin-top: 0;
   color: #000000;
-  font-weight: bold !important;
+  font-weight: bold;
 }
-
 h3 {
-  font-size: 1em;
+  font-size: 1.2em;
   color: #000000;
 }
 
-/* Paragraphs and Lists */
+/* Paragraph and List */
 p {
   margin-bottom: 1em;
 }
-
 ul, ol {
   margin-left: 1.2em;
   padding-left: 0.5em;
 }
-
 li {
   margin-bottom: 0.4em;
 }
 
-/* Code and Pre blocks */
+/* Code Blocks */
 code {
   background-color: #f4f4f4;
   color: #333;
@@ -88,7 +99,6 @@ code {
   border-radius: 4px;
   font-family: monospace;
 }
-
 pre {
   background-color: #f4f4f4;
   padding: 1em;
@@ -97,31 +107,14 @@ pre {
   font-family: monospace;
 }
 
-/* Horizontal rule */
+/* Horizontal Rule */
 hr {
   border: 0;
   border-top: 2px solid #7b0000;
   margin: 2em 0;
 }
 
-/* Scroll behavior */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Link styling */
-a {
-  color: #4682B4 !important;
-  text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-  color: #003366 !important;
-  text-decoration: underline;
-}
-
-/* Back to top button */
+/* Back to Top Button */
 .back-to-top {
   display: inline-block;
   background-color: #7b0000;
@@ -147,39 +140,10 @@ a:focus {
   background-color: #660000;
 }
 
-/* Color Variables */
+/* Root overrides */
 :root {
   --md-primary-fg-color: #7b0000;
   --md-primary-bg-color: white;
   --md-accent-fg-color: #003366;
-  --md-typeset-a-color: #7b0000;
-}
-
-
-
-h1, h2 {
-    font-weight: bold;
-    color: #1a1a1a;
-}
-
-a {
-  color: #005A9C;
-  text-decoration: underline;
-}
-
-
-/* Accessible button color */
-.back-to-top {
-  background-color: #800000;
-  color: #ffffff;
-}
-.back-to-top:hover {
-  background-color: #660000;
-}
-
-:root {
-  --md-primary-fg-color: #800000;
-  --md-primary-bg-color: white;
-  --md-accent-fg-color: #005A9C;
-  --md-typeset-a-color: #005A9C;
+  --md-typeset-a-color: #0000EE;
 }
