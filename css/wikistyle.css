@@ -229,3 +229,17 @@ hr {
   --md-accent-fg-color: #003366;
   --md-typeset-a-color: #0000EE;
 }
+
+/* Override selected sidebar item highlight */
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  background-color: transparent !important;
+  color: #0000EE !important; /* Traditional blue link */
+  text-decoration: underline;
+}
+
+/* Optional: remove bold effect if present */
+.md-nav__link--active {
+  font-weight: normal !important;
+}
