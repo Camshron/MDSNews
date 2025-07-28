@@ -38,10 +38,11 @@ nav:
   - MDS News Docs:
       - Application Setup:
           - Outlook: Outlook.md
+          - Livewhale Events Calendar: livewhaleeventscalendar.md
       #  - Livewhale:
       #  - Sitecore:
       #  - Sharepoint:
-      #   - Salesforce:
+      #  - Salesforce:
     #- Applications: applications.md
     #- Access: access.md
     #- Branding Guidelines: branding_guidelines.md
@@ -88,4 +89,4 @@ plugins:
   - redirects
   - exclude:
       glob:
-        - opstechonboarding.md # Exclude the README from the navigation
+        - "opstechonboarding.md" # Exclude the README from the navigation
