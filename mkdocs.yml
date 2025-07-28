@@ -36,7 +36,7 @@ extra:
 nav:
   - Home: index.md
   - MDS News Docs:
-      - Application Setup:
+      - Newsletter Setup by Application:
           - Outlook: Outlook.md
           - Livewhale Events Calendar: livewhaleeventscalendar.md
       #  - Livewhale:
