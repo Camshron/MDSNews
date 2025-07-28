@@ -1,0 +1,93 @@
+# mkdocs.yml
+site_name: markdownprojects
+site_url: https://camshron.github.io/markdownprojects/ # Remember to replace 'your-username'
+
+theme:
+  name: material
+  font:
+    text: Benton Sans
+    code: Fira Code
+  palette:
+    - scheme: default
+      primary: blue
+      accent: amber
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.indexes
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - navigation.sections
+    - toc.integrate
+    - content.tooltips
+    - content.footnotes
+    - content.action.view # Allows users to view the raw Markdown source
+
+
+  
+
+extra:
+  version:
+    provider: mike
+
+
+
+nav:
+  - Home: index.md
+  - MDS News Docs:
+      - Newsletter Setup by Application:
+          - Outlook: Outlook.md
+          - Livewhale Events Calendar: livewhaleeventscalendar.md
+          - Sitecore: Sitecore.md
+          - Sharepoint: Sharepoint.md
+      #  - Sitecore:
+      #  - Sharepoint:
+      #  - Salesforce:
+    #- Applications: applications.md
+    #- Access: access.md
+    #- Branding Guidelines: branding_guidelines.md
+    #- Help: help.md
+    #- Newsletter Setup: Newsletterprep.md
+    #- Team: team.md
+  - Operations Technology Onboarding: 
+      - Purpose and Definitions: purposedef.md
+      - Workspace Setup: workspace_setup.md
+      - Assigning Computers: compassign.md
+      - Logging in to new device: loginfornewdevice.md
+      - Printer Setup: printersetup.md
+      - Phone Setup: phonesetup.md
+      - 911 Acknowledgement: 911ack.md
+
+# Added Features #
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - attr_list
+  - def_list
+  - pymdownx.highlight # Necessary for code highlighting features
+  - pymdownx.superfences # For advanced code blocks (like diagrams)
+  - pymdownx.snippets # Useful for reusing content
+  - pymdownx.details # For expandable sections
+  - pymdownx.tabbed: # For content tabs
+      alternate_style: true
+
+plugins:
+  - search
+  - mike
+  - minify: # Optional: Minify HTML, CSS, JS for faster loading
+      minify_html: true
+  - git-revision-date:
+      enabled: true
+  - git-authors:
+      enabled: true
+  - section-index:
+      enabled: true
+      sections:
+        - title: "MDS News Docs"
+  - redirects
+  - exclude:
+      glob:
+        - "opstechonboarding.md" # Exclude the README from the navigation
