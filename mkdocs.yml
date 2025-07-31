@@ -85,8 +85,6 @@ plugins:
       enabled: true
   - section-index:
       enabled: true
-      sections:
-        - title: "MDS News Docs"
   - redirects
   - exclude:
       glob:
