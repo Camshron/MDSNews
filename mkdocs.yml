@@ -89,3 +89,5 @@ plugins:
   - exclude:
       glob:
         - "opstechonboarding.md" # Exclude the README from the navigation
+        - "help.md"
+        
